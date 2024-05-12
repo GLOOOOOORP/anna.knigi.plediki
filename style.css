@@ -1,0 +1,121 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap');
+
+body{
+    background-color: black;
+    height: 100%;
+    width: 100%;
+    margin: 0 0 0 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+header {
+  padding: 10px 5%;
+  background-color: rgba(50, 50, 50, 0.7);
+  width: 60%;
+  position: fixed;
+}
+header > * {
+  display: inline-block;
+  color: rgba(222, 222, 222, 1);
+  border-radius: 1000px;
+}
+
+header a {
+  text-decoration: none;
+  color: black;
+  margin: 0 10px;
+  color: rgba(222, 222, 222, 1);
+}
+
+main {
+    width: 70%;
+    height: 4250px;
+    color: white;
+    background-color: rgba(32, 32, 32, 1);
+}
+article {
+    height: 600px;
+}
+footer{
+    height: 40px;
+    color: rgba(149, 149, 149, 1);
+}
+.pustota {
+    width: 50%;
+  }
+
+#anna {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  text-align: center;
+
+}
+
+#anna > * {
+  width: 450px;
+  height: 450px;
+  font-size: 45px;
+  border-radius: 10000px;
+}
+
+.foto {
+  border-radius: 50px;
+  margin: 20px 30px;
+}
+
+#primer{  
+  height: 2300px;
+  text-align: center;
+}
+
+#cen{
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  height: 800px;
+}
+
+#kontact{
+  display: flex;
+  text-align: center;
+  flex-direction: column;
+  align-items: center;
+  height: 400px;
+}
+
+.button{
+  width: 480px;
+  height: 81px;
+  margin: 10px;
+  border-radius: 4px;
+  background-color: rgba(157, 157, 157, 1);
+}
+
+.specil{
+  border-radius: 50px;
+  margin: -200px 30px;
+}
+.icon{
+  border-radius: 50%;
+}
+.poloska{
+  height: 1px;
+  width: 100%;
+  background-color: rgba(105, 105, 105, 1);
+}
+
+.textniz {
+  margin: 30px 30px;
+}
+.sss{
+    height: 50px;
+}
+
+h1{
+  font-family: "Manrope";
+}
+
